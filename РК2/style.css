@@ -1,0 +1,38 @@
+body {
+	background-color: #D3FCE5; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+H1 {
+	text-align: center
+}
+
+.block {
+	margin: 5px 25%;
+}
+
+.proglang * > th, .proglang * > td {
+	border: 1px solid #096832;
+	padding: 5px;
+	text-align: center;
+}
+
+.proglang * > th {
+	background-color: #19A154;
+	color: white;
+}
+
+.proglang * > td {
+	background-color: #91FCC0;
+	color: black;
+}
+
+.devtool > :nth-child(odd) {
+	background-color: #60C98D;
+	margin: 0px 200px;
+}
+
+.devtool > :nth-child(even) {
+	background-color: #8FFDBF;
+	margin: 0px 200px;
+}
